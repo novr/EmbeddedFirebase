@@ -88,7 +88,7 @@ DEPENDENCIES:
   - ReSwift
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - Alamofire
     - BoringSSL-GRPC
     - Crashlytics
