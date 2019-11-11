@@ -14,7 +14,7 @@ target 'Domain' do
 
     # Pods for Infra
     pod 'Alamofire'
-    pod 'Firebase/Core', '~> 4.13.0'
+    pod 'Firebase/Core'
     pod 'Firebase/Firestore'
 
     target 'EmbeddedFirebase' do
