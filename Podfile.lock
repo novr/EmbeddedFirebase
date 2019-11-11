@@ -88,7 +88,7 @@ DEPENDENCIES:
   - ReSwift
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - BoringSSL-GRPC
     - Crashlytics
@@ -130,4 +130,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 52721840508588d02af9bcadc6e4b9b2b0b32776
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4
