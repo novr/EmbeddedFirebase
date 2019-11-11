@@ -1,0 +1,133 @@
+PODS:
+  - Alamofire (4.9.1)
+  - BoringSSL-GRPC (0.0.5):
+    - BoringSSL-GRPC/Implementation (= 0.0.5)
+    - BoringSSL-GRPC/Interface (= 0.0.5)
+  - BoringSSL-GRPC/Implementation (0.0.5):
+    - BoringSSL-GRPC/Interface (= 0.0.5)
+  - BoringSSL-GRPC/Interface (0.0.5)
+  - Crashlytics (3.14.0):
+    - Fabric (~> 1.10.2)
+  - Fabric (1.10.2)
+  - Firebase/Core (4.13.0):
+    - FirebaseAnalytics (= 4.2.0)
+    - FirebaseCore (= 4.0.20)
+  - Firebase/Firestore (4.13.0):
+    - Firebase/Core
+    - FirebaseFirestore (= 0.11.0)
+  - FirebaseAnalytics (4.2.0):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.20):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseFirestore (0.11.0):
+    - FirebaseAnalytics (~> 4.1)
+    - FirebaseCore (~> 4.0)
+    - gRPC-ProtoRPC (~> 1.0)
+    - leveldb-library (~> 1.18)
+    - Protobuf (~> 3.5)
+  - FirebaseInstanceID (2.0.10):
+    - FirebaseCore (~> 4.0)
+  - GoogleToolboxForMac/Defines (2.2.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.2)":
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - gRPC-Core (1.25.0):
+    - gRPC-Core/Implementation (= 1.25.0)
+    - gRPC-Core/Interface (= 1.25.0)
+  - gRPC-Core/Implementation (1.25.0):
+    - BoringSSL-GRPC (= 0.0.5)
+    - gRPC-Core/Interface (= 1.25.0)
+  - gRPC-Core/Interface (1.25.0)
+  - gRPC-ProtoRPC (1.25.0):
+    - gRPC-ProtoRPC/Legacy (= 1.25.0)
+    - gRPC-ProtoRPC/Legacy-Header (= 1.25.0)
+    - gRPC-ProtoRPC/Main (= 1.25.0)
+  - gRPC-ProtoRPC/Legacy (1.25.0):
+    - gRPC-ProtoRPC/Legacy-Header (= 1.25.0)
+    - gRPC-ProtoRPC/Main (= 1.25.0)
+    - gRPC-RxLibrary (= 1.25.0)
+    - gRPC/GRPCCore (= 1.25.0)
+    - Protobuf (~> 3.0)
+  - gRPC-ProtoRPC/Legacy-Header (1.25.0)
+  - gRPC-ProtoRPC/Main (1.25.0):
+    - gRPC-ProtoRPC/Legacy-Header (= 1.25.0)
+    - gRPC/Interface (= 1.25.0)
+    - Protobuf (~> 3.0)
+  - gRPC-RxLibrary (1.25.0):
+    - gRPC-RxLibrary/Implementation (= 1.25.0)
+    - gRPC-RxLibrary/Interface (= 1.25.0)
+  - gRPC-RxLibrary/Implementation (1.25.0):
+    - gRPC-RxLibrary/Interface
+  - gRPC-RxLibrary/Interface (1.25.0)
+  - gRPC/GRPCCore (1.25.0):
+    - gRPC-Core (= 1.25.0)
+    - gRPC-RxLibrary (= 1.25.0)
+    - gRPC/Interface (= 1.25.0)
+    - gRPC/Interface-Legacy (= 1.25.0)
+  - gRPC/Interface (1.25.0):
+    - gRPC/Interface-Legacy (= 1.25.0)
+  - gRPC/Interface-Legacy (1.25.0):
+    - gRPC-RxLibrary/Interface (= 1.25.0)
+  - leveldb-library (1.22)
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - Protobuf (3.10.0)
+  - ReSwift (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Crashlytics
+  - Fabric
+  - Firebase/Core (~> 4.13.0)
+  - Firebase/Firestore
+  - ReSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BoringSSL-GRPC
+    - Crashlytics
+    - Fabric
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseFirestore
+    - FirebaseInstanceID
+    - GoogleToolboxForMac
+    - gRPC
+    - gRPC-Core
+    - gRPC-ProtoRPC
+    - gRPC-RxLibrary
+    - leveldb-library
+    - nanopb
+    - Protobuf
+    - ReSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BoringSSL-GRPC: 8f2c6b5fbae71d1f3aabb787a52fd4929d1eef33
+  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  Firebase: 5ec5e863d269d82d66b4bf56856726f8fb8f0fb3
+  FirebaseAnalytics: 7ef69e76a5142f643aeb47c780e1cdce4e23632e
+  FirebaseCore: 90cb1c53d69b556f112a1bf72b5fcfaad7650790
+  FirebaseFirestore: e92a096ce80c7b4b905d4e9d41dbd944adc9d2a5
+  FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
+  GoogleToolboxForMac: 800648f8b3127618c1b59c7f97684427630c5ea3
+  gRPC: 7fb3e0d14ce1f87f1c27a9e46167da5168ab9092
+  gRPC-Core: 76552aeeae7c42172d52224cc6f3cf70bff577f5
+  gRPC-ProtoRPC: b00a140f2f21872305cd8e3ef91b2dfe28914b5c
+  gRPC-RxLibrary: cd49d9cd343fd00e2326a65522e82c2285ebe84b
+  leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
+  ReSwift: 628f1a9b3ee52e3b3ca2a644435472fd77afafe1
+
+PODFILE CHECKSUM: 52721840508588d02af9bcadc6e4b9b2b0b32776
+
+COCOAPODS: 1.5.3
